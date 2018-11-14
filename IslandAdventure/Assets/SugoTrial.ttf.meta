@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: fbf0cd2e1a1604273ae4e6798e8f8cab
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Sugo
+  fontNames:
+  - Sugo
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b9176e16800704a10b182f2fc905166b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
