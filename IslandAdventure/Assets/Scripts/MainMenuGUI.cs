@@ -21,7 +21,7 @@ public class MainMenuGUI : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		menuAreaNormalized = new Rect(menuArea.x * Screen.width - (menuArea.width * 0.5f), 
-										menuArea.y * Screen.height - (menuArea.height * 0.5f),
+										menuArea.y * Screen.height - (menuArea.height * 0.2f),
 										menuArea.width, menuArea.height);
 
 		Cursor.lockState = CursorLockMode.None;
@@ -52,6 +52,7 @@ public class MainMenuGUI : MonoBehaviour {
 				menuPage = "instructions";
 			}
 			if (Application.platform != RuntimePlatform.WebGLPlayer) {
+
 				if (GUI.Button(new Rect(quitButton), "Quit")){
 					StartCoroutine("ButtonAction", "quit");
 				}

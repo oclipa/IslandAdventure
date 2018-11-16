@@ -8,6 +8,7 @@ TagManager:
   - playerDoor
   - cell
   - Canvas
+  - QuitButton
   layers:
   - Default
   - TransparentFX
